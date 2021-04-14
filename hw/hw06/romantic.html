@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Masterpiece </title>
+    <style>
+        .back {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        #title {
+            border-style: solid;
+            border-color: rgb(0, 34, 138);
+            border-width: 5px;
+            width: 1400px;
+            height: 120px;
+            font-size: 75px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            color:rgb(0, 34, 138);
+            margin-top: 50px;
+            margin-left: 25px;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        nav {
+            float: left;
+            font-size: 25px;
+            line-height: 200px;
+            border-right: solid 4px rgb(0, 34, 138);
+            border-left: solid 4px rgb(0, 34, 138);
+            border-bottom: solid 4px rgb(0, 34, 138);
+            width: 310px;
+            height: 650px;
+            padding-top: 30px;
+            padding-left: 15px;
+            margin-left: 25px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        #artist {
+            font-size: 60px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 400px;
+            margin-top: 50px;
+            color: rgb(78, 78, 78);
+        }
+        #paintone {
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+        .name {
+            font-size: 28px;
+            margin-left: 15px;
+            font-weight: 600;
+            font-style: oblique;
+        }
+        #painttwo {
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+        @media(max-width:1000px) {
+            img {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+    <body style="background-color:rgb(247, 238, 197)">
+        <span class="back">
+            <a href="./hw06.html">&lt;--Back to Home</a> 
+        </span>
+        <div id="title">
+            Romanticism ~ Impressionism (19 ~ 20c)
+        </div>
+        <nav>
+            <ul>
+                <li>Vincent van Gogh</li>
+                <li>Édouard Manet</li>
+                <li>Claude Monet</li>
+            </ul>
+        </nav>
+        <article>
+            <div id="artist">Vincent van Gogh</div>
+            <img id="paintone" src="./img/sunflower.jpeg" width="500px" height="600px">
+            <span class="name">해바라기</span>
+            <br><img id="painttwo" src="./img/starry.jpg" width="800px" height="600px">
+            <span class="name">별이 빛나는 밤</span>
+            <div id="artist">Édouard Manet</div>
+            <img id="painttwo" src="./img/lunch.png" width="800px" height="600px">
+            <span class="name">풀밭 위의 점심식사</span>
+            <br><img id="painttwo" src="./img/woman.jpg" width="816px" height="669px">
+            <span class="name">폴리베르제르</span>
+            <div id="artist">Claude Monet</div>
+            <img id="painttwo" src="./img/sunset.jpg" width="900px" height="600px">
+            <span class="name">인상, 해돋이</span>
+            <br><img id="painttwo" src="./img/waterflower.jpg" width="600px" height="700px">
+            <span class="name">수련</span>
+            <br><br>
+        </article>
+  
+    </body>
+</html>

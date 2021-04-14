@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Masterpiece </title>
+    <style>
+        .back {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        #title {
+            border-style: solid;
+            border-color: rgb(0, 34, 138);
+            border-width: 5px;
+            width: 1400px;
+            height: 120px;
+            font-size: 75px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            color:rgb(0, 34, 138);
+            margin-top: 50px;
+            margin-left: 25px;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        nav {
+            float: left;
+            font-size: 25px;
+            line-height: 200px;
+            border-right: solid 4px rgb(0, 34, 138);
+            border-left: solid 4px rgb(0, 34, 138);
+            border-bottom: solid 4px rgb(0, 34, 138);
+            width: 310px;
+            height: 650px;
+            padding-top: 30px;
+            padding-left: 15px;
+            margin-left: 25px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        #artist {
+            font-size: 60px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 400px;
+            margin-top: 50px;
+            color: rgb(78, 78, 78);
+        }
+        #paintone {
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+        .name {
+            font-size: 28px;
+            margin-left: 15px;
+            font-weight: 600;
+            font-style: oblique;
+        }
+        #painttwo {
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+        @media(max-width:1000px) {
+            img {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+    <body style="background-color:rgb(247, 238, 197)">
+        <span class="back">
+            <a href="./hw06.html">&lt;--Back to Home</a> 
+        </span>
+        <div id="title">
+            Renaissance ~ Neo-classicism (14 ~ 19c)
+        </div>
+        <nav>
+            <ul>
+                <li>Michelangelo</li>
+                <li>Rembrandt</li>
+                <li>Leonardo da Vinci</li>
+            </ul>
+        </nav>
+        <article>
+            <div id="artist">Michelangelo</div>
+            <img id="paintone" src="./img/changjo.jpeg" width="900px" height="600px">
+            <span class="name">천지창조: 아담의 창조</span>
+            <br><img id="painttwo" src="./img/judge.jpg" width="800px" height="800px">
+            <span class="name">최후의 심판</span>
+            <div id="artist">Rembrandt</div>
+            <img id="painttwo" src="./img/night.jpeg" width="800px" height="700px">
+            <span class="name">야간순찰</span>
+            <br><img id="painttwo" src="./img/doctor.jpg" width="816px" height="669px">
+            <span class="name">니콜라스 튈프 박사의 해부학 강의</span>
+            <div id="artist">Leonardo da Vinci</div>
+            <img id="painttwo" src="./img/lastsupper.jpg" width="1000px" height="700px">
+            <span class="name">최후의 만찬</span>
+            <br><img id="painttwo" src="./img/monalisa.jpg" width="400px" height="600px">
+            <span class="name">모나리자</span>
+            <br><br>
+        </article>
+
+    </body>
+</html>
