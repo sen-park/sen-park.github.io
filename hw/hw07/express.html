@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Masterpiece </title>
+    <style>
+        .back {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        header {
+            border-style: solid;
+            border-color: rgb(0, 34, 138);
+            border-width: 5px;
+            width: 1400px;
+            height: 120px;
+            font-size: 75px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            color:rgb(0, 34, 138);
+            margin-top: 50px;
+            margin-left: 25px;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        nav {
+            float: left;
+            font-size: 25px;
+            line-height: 200px;
+            border-right: solid 4px rgb(0, 34, 138);
+            border-left: solid 4px rgb(0, 34, 138);
+            border-bottom: solid 4px rgb(0, 34, 138);
+            width: 310px;
+            height: 650px;
+            padding-top: 30px;
+            padding-left: 15px;
+            margin-left: 25px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        #artist {
+            font-size: 60px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 400px;
+            margin-top: 50px;
+            color: rgb(78, 78, 78);
+        }
+        #paintone {
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+        .name {
+            font-size: 28px;
+            margin-left: 15px;
+            font-weight: 600;
+            font-style: oblique;
+        }
+        #painttwo {
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+        @media(max-width:1000px) {
+            img {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+        @media(max-width:1000px) {
+            div {
+                display: none;
+            }
+        }
+        footer {
+            border-top: solid 5px rgb(0, 34, 138);
+            margin-top: 50px;
+            padding-top: 15px;
+        }
+
+        @media(max-width:1000px) {
+            footer {
+                display: none;
+            }
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+        }
+
+        a:visited {
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+    <body style="background-color:rgb(247, 238, 197)">
+        <span class="back">
+            <a href="./hw07.html">&lt;--Back to Home</a> 
+        </span>
+        <header>
+            Expressionism ~ Symbolism (Early 20c)
+        </header>
+        <nav>
+            <ul>
+                <a href="./klimt.html">
+                <li>Gustav Klimt</li></a>
+                <a href="./matisse.html">
+                <li>Henri Matisse</li></a>
+                <a href="./egon.html">
+                <li>Egon Schiele</li></a>
+            </ul>
+        </nav>
+        <article>
+            <div id="artist">Gustav Klimt</div>
+            <img id="paintone" src="./img/kiss.jpeg" width="500px" height="600px">
+            <span class="name">키스</span>
+            <br><img id="painttwo" src="./img/adele.jpeg" width="500px" height="600px">
+            <span class="name">아델 블로흐 바우어의 초상화</span>
+            <div id="artist">Henri Matisse</div>
+            <img id="painttwo" src="./img/blue.jpeg" width="600px" height="700px">
+            <span class="name">푸른 누드</span>
+            <br><img id="painttwo" src="./img/dance.jpg" width="850px" height="600px">
+            <span class="name">춤</span>
+            <div id="artist">Egon Schiele</div>
+            <img id="painttwo" src="./img/selfie.jpeg" width="800px" height="600px">
+            <span class="name">에곤 실레의 자화상</span>
+            <br><img id="painttwo" src="./img/family.jpg" width="800px" height="700px">
+            <span class="name">가족</span>
+            <br><br>
+        </article>
+        <footer>
+            TEL: 000-0000-000
+            <br>Email: qkrtpdms0521@naver.com
+        </footer>
+        
+    </body>
+</html>
